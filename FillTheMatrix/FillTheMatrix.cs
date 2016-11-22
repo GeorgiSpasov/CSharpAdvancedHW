@@ -130,7 +130,6 @@ namespace FillTheMatrix
             for (int r = 0; r < arr.GetLength(0); r++)
             {
                 for (int c = 0; c < arr.GetLength(1); c++)
-
                 {
                     Console.Write("{0}", arr[r, c]);
                     if (c != arr.GetLength(1) - 1)
