@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.04.LargestAreaInMatrix",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.01.SayHello", "SayHello\03.01.SayHello.csproj", "{9358BA91-B376-43E4-A01F-9ED61E3454EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.02.GetLargestNumber", "GetLargestNumber\03.02.GetLargestNumber.csproj", "{522DA665-96C4-49B3-B3B0-82F5D6856371}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9358BA91-B376-43E4-A01F-9ED61E3454EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9358BA91-B376-43E4-A01F-9ED61E3454EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9358BA91-B376-43E4-A01F-9ED61E3454EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522DA665-96C4-49B3-B3B0-82F5D6856371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522DA665-96C4-49B3-B3B0-82F5D6856371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522DA665-96C4-49B3-B3B0-82F5D6856371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522DA665-96C4-49B3-B3B0-82F5D6856371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
