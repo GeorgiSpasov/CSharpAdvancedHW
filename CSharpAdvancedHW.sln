@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.08.NumberAsArray", "Numb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.09.SortingArray", "SortingArray\03.09.SortingArray.csproj", "{64F03C19-1B74-42BD-80EA-08C38E20BAFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.10.NFactorial", "NFactorial\03.10.NFactorial.csproj", "{C8DD0B2F-06A1-4BAA-8B5A-537E9B6B935F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{64F03C19-1B74-42BD-80EA-08C38E20BAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64F03C19-1B74-42BD-80EA-08C38E20BAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64F03C19-1B74-42BD-80EA-08C38E20BAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DD0B2F-06A1-4BAA-8B5A-537E9B6B935F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DD0B2F-06A1-4BAA-8B5A-537E9B6B935F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DD0B2F-06A1-4BAA-8B5A-537E9B6B935F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DD0B2F-06A1-4BAA-8B5A-537E9B6B935F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
