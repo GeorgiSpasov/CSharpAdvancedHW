@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.05.LargerThanNeighbours"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.06.FirstLarger", "FirstLarger\03.06.FirstLarger.csproj", "{B9A27FD0-CD9E-42BC-872A-903A7FA5A4F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.07.ReverseNumber", "ReverseNumber\03.07.ReverseNumber.csproj", "{37EA9BCB-C445-4EC5-9867-1D57B0CB587E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{B9A27FD0-CD9E-42BC-872A-903A7FA5A4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9A27FD0-CD9E-42BC-872A-903A7FA5A4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9A27FD0-CD9E-42BC-872A-903A7FA5A4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EA9BCB-C445-4EC5-9867-1D57B0CB587E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EA9BCB-C445-4EC5-9867-1D57B0CB587E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EA9BCB-C445-4EC5-9867-1D57B0CB587E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EA9BCB-C445-4EC5-9867-1D57B0CB587E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
