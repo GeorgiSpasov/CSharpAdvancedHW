@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.06.FirstLarger", "FirstL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.07.ReverseNumber", "ReverseNumber\03.07.ReverseNumber.csproj", "{37EA9BCB-C445-4EC5-9867-1D57B0CB587E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.08.NumberAsArray", "NumberAsArray\03.08.NumberAsArray.csproj", "{C0DCA926-3532-4B10-A2EA-6F1D25503451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{37EA9BCB-C445-4EC5-9867-1D57B0CB587E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37EA9BCB-C445-4EC5-9867-1D57B0CB587E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37EA9BCB-C445-4EC5-9867-1D57B0CB587E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0DCA926-3532-4B10-A2EA-6F1D25503451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DCA926-3532-4B10-A2EA-6F1D25503451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DCA926-3532-4B10-A2EA-6F1D25503451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DCA926-3532-4B10-A2EA-6F1D25503451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
