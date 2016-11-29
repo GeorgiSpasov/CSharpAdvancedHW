@@ -51,7 +51,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.08.BinaryShort", "Binary
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.01.LeapYear", "LeapYear\05.01.LeapYear.csproj", "{8C2029B3-6FE4-45D1-A56B-3C3FC895C437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.04.TriangleSurface", "TriangleSurface\05.04.TriangleSurface.csproj", "{129C096D-AFFD-458D-B927-F5E67936ADC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.05.TriangleSurface", "TriangleSurface\05.05.TriangleSurface.csproj", "{129C096D-AFFD-458D-B927-F5E67936ADC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.05.TriangleSurface2", "TriangleSurface2\05.05.TriangleSurface2.csproj", "{A5B08689-36C5-44D5-B304-5566B0377020}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{129C096D-AFFD-458D-B927-F5E67936ADC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{129C096D-AFFD-458D-B927-F5E67936ADC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{129C096D-AFFD-458D-B927-F5E67936ADC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B08689-36C5-44D5-B304-5566B0377020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B08689-36C5-44D5-B304-5566B0377020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B08689-36C5-44D5-B304-5566B0377020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B08689-36C5-44D5-B304-5566B0377020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
