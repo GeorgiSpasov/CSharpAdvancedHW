@@ -8,36 +8,50 @@ namespace TriangleSurface
 
         private class Triangle
         {
-            private double side;
-            private double altitude;
+            private double a;
+            private double b;
+            private double c;
 
-            public double Side
+            public double A
             {
                 get
                 {
-                    return side;
+                    return a;
                 }
                 set
                 {
-                    side = value;
+                    a = value;
                 }
             }
 
-            public double Altitude
+            public double B
             {
                 get
                 {
-                    return altitude;
+                    return b;
                 }
                 set
                 {
-                    altitude = value;
+                    b = value;
+                }
+            }
+
+            public double C
+            {
+                get
+                {
+                    return c;
+                }
+                set
+                {
+                    c = value;
                 }
             }
 
             public void CalcSurface()
             {
-                Console.WriteLine("{0:f2}", this.Side * this.Altitude / 2);
+                double s = (this.a + this.b + this.c) / 2;
+                Console.WriteLine("{0:f2}", Math.Sqrt(s * (s - this.a) * (s - this.b) * (s - this.c)));
             }
 
         }
@@ -45,8 +59,9 @@ namespace TriangleSurface
         static void Main(string[] args)
         {
             Triangle test = new Triangle();
-            test.Side = double.Parse(Console.ReadLine());
-            test.Altitude = double.Parse(Console.ReadLine());
+            test.A = double.Parse(Console.ReadLine());
+            test.B = double.Parse(Console.ReadLine());
+            test.C = double.Parse(Console.ReadLine());
             test.CalcSurface();
         }
     }
