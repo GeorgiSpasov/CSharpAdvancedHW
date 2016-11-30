@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.02.ReverseString", "Reve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.04.SubstringInText", "SubstringInText\06.04.SubstringInText.csproj", "{C11EBF72-4F94-4E38-8E34-C5596DAA455C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.03.CorrectBrackets", "CorrectBrackets\06.03.CorrectBrackets.csproj", "{86532A54-F5F2-4BEB-ADC0-B613815D9937}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{C11EBF72-4F94-4E38-8E34-C5596DAA455C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C11EBF72-4F94-4E38-8E34-C5596DAA455C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C11EBF72-4F94-4E38-8E34-C5596DAA455C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86532A54-F5F2-4BEB-ADC0-B613815D9937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86532A54-F5F2-4BEB-ADC0-B613815D9937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86532A54-F5F2-4BEB-ADC0-B613815D9937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86532A54-F5F2-4BEB-ADC0-B613815D9937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
