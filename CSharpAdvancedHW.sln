@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.12.ParseURL", "ParseURL\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.15.ReplaceТags", "ReplaceТags\06.15.ReplaceТags.csproj", "{3F9D2369-8406-4EC9-9774-A56F7A478FAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.23.SeriesOfLetters", "SeriesOfLetters\06.23.SeriesOfLetters.csproj", "{2A4BEDE9-7142-4FDC-BC58-7D721F17D87B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{3F9D2369-8406-4EC9-9774-A56F7A478FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F9D2369-8406-4EC9-9774-A56F7A478FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F9D2369-8406-4EC9-9774-A56F7A478FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4BEDE9-7142-4FDC-BC58-7D721F17D87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4BEDE9-7142-4FDC-BC58-7D721F17D87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4BEDE9-7142-4FDC-BC58-7D721F17D87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4BEDE9-7142-4FDC-BC58-7D721F17D87B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
