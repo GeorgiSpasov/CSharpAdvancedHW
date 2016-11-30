@@ -69,7 +69,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.06.StringLength", "Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.08.ExtractSentences", "ExtractSentences\06.08.ExtractSentences.csproj", "{DCB7DD52-BAF5-4F73-BB1B-74E2D449C676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnicodeCharacters", "UnicodeCharacters\UnicodeCharacters.csproj", "{B073F7B7-7D43-4853-933A-FF4ABE4108FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.10.UnicodeCharacters", "UnicodeCharacters\06.10.UnicodeCharacters.csproj", "{B073F7B7-7D43-4853-933A-FF4ABE4108FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

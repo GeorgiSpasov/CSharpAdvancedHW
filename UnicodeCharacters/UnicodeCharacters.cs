@@ -4,7 +4,7 @@ using System.Globalization;
 
 namespace UnicodeCharacters
 {
-    class Program
+    class UnicodeCharacters
     {
         static void Main(string[] args)
         {
