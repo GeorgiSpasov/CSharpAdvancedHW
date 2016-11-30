@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.06.TriangleSurface2", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.08.SumIntegers", "SumIntegers\05.08.SumIntegers.csproj", "{BA45FC32-5DC0-4C96-B04E-DC0B3FC83225}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.02.ReverseString", "ReverseString\06.02.ReverseString.csproj", "{BA51AE72-47D1-40BB-AA53-1707CFDDFA18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{BA45FC32-5DC0-4C96-B04E-DC0B3FC83225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA45FC32-5DC0-4C96-B04E-DC0B3FC83225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA45FC32-5DC0-4C96-B04E-DC0B3FC83225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA51AE72-47D1-40BB-AA53-1707CFDDFA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA51AE72-47D1-40BB-AA53-1707CFDDFA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA51AE72-47D1-40BB-AA53-1707CFDDFA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA51AE72-47D1-40BB-AA53-1707CFDDFA18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
