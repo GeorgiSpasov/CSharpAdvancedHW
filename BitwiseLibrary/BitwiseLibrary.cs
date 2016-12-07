@@ -104,6 +104,84 @@ namespace BitwiseLibrary
             str = str.Remove(0, 1);
             return number = Convert.ToInt32(str, 2);
         }
-    }
 
+        public static void ExchangeBits()
+        {
+            //Условие: Напишете програма, която разменя стойностите на битовете на позиции 3, 4 и 5 с битовете на позиции 24, 25 и 26 на дадено цяло положително число.
+            //Входа ще бъде цяло положително число от тип int.
+            //Дефинираме две числа firstSeqBits и secondSeqBits, които първоначално са равни на 0.След което чрез побитови операции копираме нужните битове от input числото съответно в firstSeqBits и secondSeqBits.След това изместваме битовете на firstSeqBits и secondSeqBits с необходимите позиции и копираме техните битове обратно в input.
+            int input = int.Parse(Console.ReadLine());
+
+            // Set starting positions
+            int startExchangePosition = 3;
+            int exchangeBits = 3;
+            int exchangeFromPosition = 24;
+
+            // Get bits from the number
+            int firstSeqBits = 0;
+            int secondSeqBits = 0;
+            for (int i = 0; i < exchangeBits; i++)
+            {
+                if (0 != (input & (1 << (startExchangePosition + i))))
+                {
+                    firstSeqBits |= (1 << i);
+                }
+
+                input &= ~(1 << startExchangePosition + i);
+
+                if (0 != (input & (1 << (exchangeFromPosition + i))))
+                {
+                    secondSeqBits |= (1 << i);
+                }
+
+                input &= ~(1 << exchangeFromPosition + i);
+            }
+
+            // Exchange bits 
+            input |= secondSeqBits << startExchangePosition;
+            input |= firstSeqBits << exchangeFromPosition;
+
+            // Print the result
+            Console.WriteLine(input);
+        }
+
+        public static void BitExchange()
+        {
+            //Условие:  Напишете програма, която разменя битовете на позиции { p, p + 1, …, p + k - 1) с битовете на позиции { q, q + 1, …, q + k - 1} на дадено цяло положително число.
+            //На първия ред ще ви е дадено числото, на което трябва да се сменят битовете. На втория ред позицията, от която да взима битовете.
+            //Анализ на задачата: Четем от конзолата числото, чийто битове ще разменяме и го записваме в input. Останалите данни ги записваме в startExchangePosition, exchangeBits, exchangeFromPosition. Дефинираме две числа firstSeqBits и secondSeqBits, които първоначално са равни на 0.След което чрез побитови операции копираме нужните битове от input числото съответно в firstSeqBits и secondSeqBits.След това изместваме битовете на firstSeqBits и secondSeqBits с необходимите позиции и копираме техните битове обратно в input.
+
+            int input = int.Parse(Console.ReadLine());
+            int startExchangePosition = int.Parse(Console.ReadLine());
+            int exchangeBits = int.Parse(Console.ReadLine());
+            int exchangeFromPosition = int.Parse(Console.ReadLine());
+
+            // Get bits from the number
+            int firstSeqBits = 0;
+            int secondSeqBits = 0;
+            for (int i = 0; i < exchangeBits; i++)
+            {
+                if (0 != (input & (1 << (startExchangePosition + i))))
+                {
+                    firstSeqBits |= (1 << i);
+                }
+
+                input &= ~(1 << startExchangePosition + i);
+
+                if (0 != (input & (1 << (exchangeFromPosition + i))))
+                {
+                    secondSeqBits |= (1 << i);
+                }
+
+                input &= ~(1 << exchangeFromPosition + i);
+            }
+
+            // Exchange bits 
+            input |= secondSeqBits << startExchangePosition;
+            input |= firstSeqBits << exchangeFromPosition;
+
+            // Print the result
+            Console.WriteLine(input);
+        }
+    }
 }
