@@ -46,5 +46,17 @@ namespace ArrayLibrary
                 Console.WriteLine();
             }
         }
+
+        public static void GridBasedMovement()
+        {
+
+            //foreach (var gridSquare in allGridSquares)
+            //{
+            //    if ((Mathf.Abs(myX - gridSquare.Xcoord) + (Mathf.Abs(myY - gridSquare.Ycoor) >= myMovementValue)
+            //    {
+            //        gridSquare.activate();
+            //    }
+            //}
+        }
     }
 }
