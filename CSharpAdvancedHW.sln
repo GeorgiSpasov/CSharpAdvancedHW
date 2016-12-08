@@ -85,8 +85,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_BitwiseLibrary", "BitwiseL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_StringLibrary", "StringLibrary\_StringLibrary.csproj", "{C9A283CD-2C19-4F86-B32E-AE90AF81B472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_ArrayLibrary", "ArrayLibrary\_ArrayLibrary.csproj", "{64AA604B-ACED-4650-86DC-99556A57C1C7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001.SecretNumeralSystem", "SecretNumeralSystem\001.SecretNumeralSystem.csproj", "{6DA362D7-2C4E-45FE-BA11-5A01BCF2E0E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002.Cards", "Cards\002.Cards.csproj", "{BD63C5EC-254E-4DA2-8974-BBBB1D8E03F4}"
@@ -261,10 +259,6 @@ Global
 		{C9A283CD-2C19-4F86-B32E-AE90AF81B472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A283CD-2C19-4F86-B32E-AE90AF81B472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A283CD-2C19-4F86-B32E-AE90AF81B472}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64AA604B-ACED-4650-86DC-99556A57C1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64AA604B-ACED-4650-86DC-99556A57C1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64AA604B-ACED-4650-86DC-99556A57C1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64AA604B-ACED-4650-86DC-99556A57C1C7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6DA362D7-2C4E-45FE-BA11-5A01BCF2E0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6DA362D7-2C4E-45FE-BA11-5A01BCF2E0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DA362D7-2C4E-45FE-BA11-5A01BCF2E0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU

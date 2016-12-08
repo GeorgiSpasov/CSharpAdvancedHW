@@ -9,23 +9,23 @@ namespace Cards
         static void Main(string[] args)
         {
             #region Input
-            //int handsNum = int.Parse(Console.ReadLine());
+            int handsNum = int.Parse(Console.ReadLine());
 
-            //UInt64[] hands = new UInt64[handsNum];
+            UInt64[] hands = new UInt64[handsNum];
 
-            //for (int i = 0; i < handsNum; i++)
-            //{
-            //    hands[i] = UInt64.Parse(Console.ReadLine());
-            //}
+            for (int i = 0; i < handsNum; i++)
+            {
+                hands[i] = UInt64.Parse(Console.ReadLine());
+            }
             string[] cards = { "2c", "3c", "4c", "5c",  "6c", "7c", "8c", "9c", "Tc", "Jc", "Qc", "Kc", "Ac",
                                "2d", "3d", "4d", "5d",  "6d", "7d", "8d", "9d", "Td", "Jd", "Qd", "Kd", "Ad",
                                "2h", "3h", "4h", "5h",  "6h", "7h", "8h", "9h", "Th", "Jh", "Qh", "Kh", "Ah",
                                "2s", "3s", "4s", "5s",  "6s", "7s", "8s", "9s", "Ts", "Js", "Qs", "Ks", "As"};
-            UInt64[] hands = { 272661674162173, 2814457708837951, 4204527946760119 }; //example 
+            //UInt64[] hands = { 8796093284353, 274878169096, 1168365322240, 8650760, 285873023221888 }; //example 
             #endregion
 
-            #region Check the Deck
-            // Check if the deck is full, full deck = 4503599627370495
+            #region CheckTheDeck
+            // Check if the deck is full, full deck = 4503599627370495(52x1)
             UInt64 deck = 0;
             for (int i = 0; i < hands.Length; i++)
             {
@@ -42,22 +42,17 @@ namespace Cards
             }
             #endregion
 
-            // Hands to binary
-            string[] binaryHands = new string[hands.Length];
+            #region GetOddCards
+            int[] cardAppearence = new int[52];
+            string[] binaryHands = new string[hands.Length];//Hands to binary
             for (int i = 0; i < hands.Length; i++)
             {
                 binaryHands[i] = BinaryHand(hands[i]);
-            }
-
-            //Check appearence
-            UInt64[] cardAppearence = new UInt64[52];
-            for (int handIndex = 0; handIndex < hands.Length; handIndex++) //check every hand
-            {
-                for (int cardIndex = binaryHands[handIndex].Length-1; cardIndex >= 0; cardIndex--)
+                for (int k = binaryHands[i].Length - 1, j = 0; k >= 0; k--, j++)
                 {
-                    if ((binaryHands[handIndex])[cardIndex] == '1')
+                    if ((binaryHands[i])[k] == '1')
                     {
-                        cardAppearence[cardIndex] = cardAppearence[cardIndex] + 1;
+                        ++cardAppearence[j];
                     }
                 }
             }
@@ -70,8 +65,8 @@ namespace Cards
                     oddCards[k] = cards[k];
                 }
             }
-            Console.WriteLine(string.Join(" ", oddCards.Where(s => !string.IsNullOrEmpty(s))));
-            //Console.WriteLine(string.Join(" ", oddCards.Where(s => !string.IsNullOrEmpty(s))));
+            Console.WriteLine(string.Join(" ", oddCards.Where(s => !string.IsNullOrEmpty(s)))); 
+            #endregion
         }//End of main
 
         static string BinaryHand(UInt64 hand)
